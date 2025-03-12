@@ -19,8 +19,18 @@ export const WAGMI_SUPPORTED_CHAINS: Chain[] = [mainnet, sepolia];
 const { chains, publicClient, webSocketPublicClient } = configureChains(
   WAGMI_SUPPORTED_CHAINS,
   [
-    // use infura api key
-    infuraProvider({apiKey: import.meta.env.VITE_INFURA_API_KEY}),
+    // use custom JSON-RPC API endpoints based on chain
+    jsonRpcProvider({
+      rpc: (chain) => {
+        if (chain.id === mainnet.id) {
+          return { http: import.meta.env.VITE_MAINNET_RPC_URL };
+        }
+        if (chain.id === sepolia.id) {
+          return { http: import.meta.env.VITE_SEPOLIA_RPC_URL };
+        }
+        return null;
+      },
+    }),
     publicProvider(),
   ].filter(isTruthy)
 );

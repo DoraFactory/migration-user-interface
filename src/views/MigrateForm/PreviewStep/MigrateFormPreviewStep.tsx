@@ -67,7 +67,7 @@ export const MigrateFormPreviewStep = () => {
             label: 'Dora Vota settlement',
             value: (
               <Tag>
-                ~40 hours
+                ~72 hours
               </Tag>
             ),
           },

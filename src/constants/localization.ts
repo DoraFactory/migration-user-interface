@@ -32,7 +32,7 @@ export const DORA_KEYS = {
 }
 
 export const DORA_LONG_SENTENCE = {
-  "CONFIRM_MIGRATION_DISCLAIMER_1": "I understand it may take 24~48 hours until my tokens are available on the Dora Vota.",
+  "CONFIRM_MIGRATION_DISCLAIMER_1": "I understand it may take 48~96 hours until my tokens are available on the Dora Vota.",
   "CONFIRM_MIGRATION_DISCLAIMER_2": "I understand that my ethDORA tokens will be sent to a black hole address for permanent destruction in the Bridge Smart Contract and irrecoverable.",
   "PENDING_MIGRATIONS_DESCRIPTION_I": 'This table lists all pending DORA token migrations from Ethereum to the Dora Vota. It refreshes periodically or upon a manual page reload.',
   "PENDING_MIGRATIONS_DESCRIPTION_II": 'Once a pending migration is listed, the migration will be completed within ~48 hours. Once the migration has been settled, it will be removed from this table during the next automatic update or when the page is manually refreshed.',
@@ -43,7 +43,7 @@ export const DORA_LONG_SENTENCE = {
   "MIGRATION_FAQ_WHAT_ADDRESS_CAN_INTERACT_ANSWER": "Only Ethereum addresses holding Ethereum ERC20 DORA can successfully interact with the token migration smart contract to proceed with the token migration.",
   "MIGRATION_FAQ_GAS_FEES_ANSWER": "Please note that a gas fee will be charged during the token migration process. The user will pay all gas fees incurred.",
   "MIGRATION_FAQ_GAS_FEES": "Who will be paying the migration gas fees?",
-  "MIGRATION_FAQ_HOW_LONG_ANSWER": "The migration will be finished within 48 hours. Note that the migration time is subject to change. As more addresses complete token migration, expected token migration time will prolong.",
+  "MIGRATION_FAQ_HOW_LONG_ANSWER": "The migration will be finished within 96 hours. Note that the migration time is subject to change. As more addresses complete token migration, expected token migration time will prolong.",
   "MIGRATION_FAQ_HOW_LONG": "How long should the migration take?",
   "MIGRATION_FAQ_CUSTODY_TOKEN": "Will the token migration portal custody my tokens?",
   "MIGRATION_FAQ_CUSTODY_TOKEN_ANSWER": "Please note that the token migration portal and the smart contracts are non-custodial. You will interact with the smart contract to receive DORA on the Dora Vota Chain. After migration, your ethDORA tokens will be burnt (sent to a null address).",

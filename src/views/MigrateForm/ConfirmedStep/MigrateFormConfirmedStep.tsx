@@ -118,7 +118,7 @@ export const MigrateFormConfirmedStep = () => {
                 </Styled.StartedTag>
               </Styled.InlineRow>
             ),
-            value: "~40 hours",
+            value: "~72 hours",
           },
           {
             key: 'address',

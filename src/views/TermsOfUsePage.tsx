@@ -311,7 +311,7 @@ export const TermsOfUsePage = () => (
         network, and you are solely responsible for these fees and costs. Once you initiate a
         migration, it cannot be modified, reversed, or otherwise altered, and the originating
         Ethereum-based ERC-20 DORA tokens will be unrecoverable. While migration will typically be
-        completed within 48 hours, delays may occur due to network congestion.
+        completed within 96 hours, delays may occur due to network congestion.
       </p>
 
       <h3>Your Responsibility in Token Migration</h3>
