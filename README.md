@@ -31,6 +31,6 @@ Run the following command in the project directory to start the development serv
 pnpm dev
 ```
 
-The development server will be running at `http://localhost:5173` (or the port number displayed in the terminal). Visit this URL to interact with the web app and see your changes in real-time.
+The development server will be running at `http://localhost:5173` (or the port number displayed in the terminal). Visit this URL to interact with the web app and see your changes in real-time..
 
 
